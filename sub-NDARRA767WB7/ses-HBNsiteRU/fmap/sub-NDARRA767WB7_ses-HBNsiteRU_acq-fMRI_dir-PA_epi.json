@@ -142,5 +142,6 @@
     "VoxelSizeDim1": 2.404761791229248,
     "VoxelSizeDim2": 2.404761791229248,
     "VoxelSizeDim3": 2.4000000953674316,
-    "NumVolumes": 1.0
+    "NumVolumes": 1.0,
+    "ImageOrientation": "LAS+"
 }
