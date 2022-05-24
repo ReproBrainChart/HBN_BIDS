@@ -31,7 +31,6 @@
         "ses-HBNsiteRU/func/sub-NDARXY162ERA_ses-HBNsiteRU_task-peer_run-1_bold.nii.gz",
         "ses-HBNsiteRU/func/sub-NDARXY162ERA_ses-HBNsiteRU_task-rest_run-1_bold.nii.gz",
         "ses-HBNsiteRU/func/sub-NDARXY162ERA_ses-HBNsiteRU_task-rest_run-2_bold.nii.gz",
-        "ses-HBNsiteRU/func/sub-NDARXY162ERA_ses-HBNsiteRU_task-movieTP_acq-VARIANTPhaseEncodingDirection_bold.nii.gz",
         "ses-HBNsiteRU/func/sub-NDARXY162ERA_ses-HBNsiteRU_task-peer_acq-VARIANTPhaseEncodingDirection_run-3_bold.nii.gz"
     ],
     "MRAcquisitionType": "2D",
