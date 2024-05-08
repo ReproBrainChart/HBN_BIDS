@@ -6,28 +6,32 @@
         "LongName": "Study identifier",
         "Description": "The study in which this participant participated.",
         "Levels": {
-            "a": "Study X (doi:XXXX)"
+            "HBN": "Healthy Brain Network study"
         }
     },
     "study_site": {
         "LongName": "Study site",
         "Description": "Participant's study recruitment site.",
         "Levels": {
-            "study_a_site_1": "Site 1 from study X."
+            "HBNsiteSI": "Site Staten Island from HBN study.",
+            "HBNsiteCBIC": "Site Citigroup Biomedical Imaging Center from HBN study.",
+            "HBNsiteRU": "Site Rutgers University from HBN study.",
+            
         }
     },
     "session": {
         "LongName": "Session",
-        "Description": "Participant's imaging session.",
+        "Description": "Participant's imaging session, refers to study site.",
         "Levels": {
-            "1": "Session 1 from study X."
-        }
+            "ses-HBNsiteSI": "Site Staten Island from HBN study.",
+            "ses-HBNsiteCBIC": "Site Citigroup Biomedical Imaging Center from HBN study.",
+            "ses-HBNsiteRU": "Site Rutgers University from HBN study.",
     },
     "wave": {
         "LongName": "Recruitment wave",
         "Description": "Participant's recruitment wave within the study.",
         "Levels": {
-            "1": "Wave 1 from study X."
+            "1": "Wave 1 from HBN study."
         }
     },
     "age": {
