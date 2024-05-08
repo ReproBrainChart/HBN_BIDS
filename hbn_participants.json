@@ -1,0 +1,146 @@
+{
+    "participant_id": {
+        "LongName": "Participant identifier"
+    },
+    "study": {
+        "LongName": "Study identifier",
+        "Description": "The study in which this participant participated.",
+        "Levels": {
+            "a": "Study X (doi:XXXX)"
+        }
+    },
+    "study_site": {
+        "LongName": "Study site",
+        "Description": "Participant's study recruitment site.",
+        "Levels": {
+            "study_a_site_1": "Site 1 from study X."
+        }
+    },
+    "session": {
+        "LongName": "Session",
+        "Description": "Participant's imaging session.",
+        "Levels": {
+            "1": "Session 1 from study X."
+        }
+    },
+    "wave": {
+        "LongName": "Recruitment wave",
+        "Description": "Participant's recruitment wave within the study.",
+        "Levels": {
+            "1": "Wave 1 from study X."
+        }
+    },
+    "age": {
+        "LongName": "Age",
+        "Description": "Participant age in years at the time of scan/intake. If original data is collected in months, the final value is divided by 12. Ages > 89 are cropped to 89.",
+        "Units": "Years"
+    },
+    "sex": {
+        "LongName": "Sex",
+        "Description": "Participant's sex, determined by self-report.",
+        "Levels": {
+            "Female": "Self-reported female",
+            "Male": "Self-reported male",
+            "Other": "Self-reported other or declined to answer."
+        }
+    },
+    "race": {
+        "LongName": "Race",
+        "Description": "Participant's self-reported race.",
+        "Levels": {
+            "Asian": "",
+            "Black": "",
+            "Hispanic": "Pretty sure this isn't a race.",
+            "Mixed": "",
+            "Other": "",
+            "White": ""
+        }
+    },
+    "bmi": {
+        "LongName": "Body Mass Index",
+        "Description": "Participant's body mass index.",
+        "TermURL": "https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html",
+        "Units": "lbs/inches^2"
+    },
+    "handedness": {
+        "LongName": "Handedness",
+        "Description": "Participant handedness. Either self-reported, or result of binarizing the Edinburgh Handedness Scale. Participants whose Edinburgh Handedness Scale value is 0 are reported as Ambidextrous",
+        "Levels": {
+            "Ambidextrous": "Uses both hands equally.",
+            "Left": "Primarily left-handed",
+            "Right": "Primarily right-handed"
+        },
+        "TermURL": "https://en.wikipedia.org/wiki/Edinburgh_Handedness_Inventory"
+    },
+    "education": {
+        "LongName": "Participant education level",
+        "Description": "Highest level of education attained by participant at time of scan/intake. These values are binned.",
+        "Levels": {
+            "Kindergarten": "Completed Kindergarten",
+            "1st Grade": "Completed 1st Grade",
+            "2nd Grade": "Completed 2nd Grade",
+            "3rd Grade": "Completed 3rd Grade",
+            "4th Grade": "Completed 4th Grade",
+            "5th Grade": "Completed 5th Grade",
+            "6th Grade": "Completed 6th Grade",
+            "7th Grade": "Completed 7th Grade",
+            "8th Grade": "Completed 8th Grade",
+            "9th Grade": "Completed 9th Grade",
+            "10th Grade": "Completed 10th Grade",
+            "11th Grade": "Completed 11th Grade",
+            "12th Grade": "Completed 12th Grade",
+            "High School Diploma": "Attained a High School Diploma (or GED?)",
+            "Some College": "Attended some college, but did not complete a degree.",
+            "Associate's Degree": "Completed an Associate's Degree",
+            "Bachelor's Degree": "Completed a Bachelor's Degree",
+            "Doctoral Degree": "Completed a Doctoral Degree",
+            "Professional Degree": "Completed a Professional Degree (e.g., XX)"
+        }
+    },
+    "parent_1_education": {
+        "LongName": "Parent 1 Education",
+        "Description": "Parent's education level at time of scan/intake. Gender of parent not known.",
+        "Levels": {
+            "No/incomplete primary": "Kindergarten through 8th grade",
+            "Complete primary": "8th grade through 12th grade",
+            "Complete secondary": "12th grade through some college",
+            "Complete tertiary": "Bachelor's degree or higher"
+        }
+    },
+    "parent_2_education": {
+        "LongName": "Parent 2 Education",
+        "Description": "Parent's education level at time of scan/intake. Gender of parent not known.",
+        "Levels": {
+            "No/incomplete primary": "Kindergarten through 8th grade",
+            "Complete primary": "8th grade through 12th grade",
+            "Complete secondary": "12th grade through some college",
+            "Complete tertiary": "Bachelor's degree or higher"
+        }
+    },
+    "mcelroy_p_factor_harmonized": {
+        "LongName": "McElroy P-Factor (Harmonized)",
+        "Description": "McElroy's psychopathology factor harmonized across all samples.",
+        "TermURL": "https://acamh.onlinelibrary.wiley.com/doi/10.1111/jcpp.12849"
+    },
+    "internalizing_mcelroy_factor_harmonized": {
+        "LongName": "McElroy Internalizing Factor (Harmonized)",
+        "Description": "McElroy's internalizing factor harmonized across all samples.",
+        "TermURL": "https://acamh.onlinelibrary.wiley.com/doi/10.1111/jcpp.12849"
+    },
+    "externalizing_mcelroy_factor_harmonized": {
+        "LongName": "McElroy Externalizing Factor (Harmonized)",
+        "Description": "McElroy's externalizing factor harmonized across all samples.",
+        "TermURL": "https://acamh.onlinelibrary.wiley.com/doi/10.1111/jcpp.12849"
+    },
+    "attention_mcelroy_factor_harmonized": {
+        "LongName": "McElroy Attention Factor (Harmonized)",
+        "Description": "McElroy's attention factor harmonized across all samples.",
+        "TermURL": "https://acamh.onlinelibrary.wiley.com/doi/10.1111/jcpp.12849"
+    },
+    "cubids_acquisition_group": {
+        "LongName": "CuBIDS Acquisition Group",
+        "Description": "Acquisition group participant's scan belongs to.",
+        "TermURL": "https://cubids.readthedocs.io/en/latest/"
+    }
+
+}
