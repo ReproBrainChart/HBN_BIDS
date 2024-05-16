@@ -78,6 +78,7 @@
         "LongName": "Participant education level",
         "Description": "Highest level of education attained by participant at time of scan/intake. These values are binned.",
         "Levels": {
+            "Pre-Kindergarten": "In Kindergarten",
             "Kindergarten": "Completed Kindergarten",
             "1st Grade": "Completed 1st Grade",
             "2nd Grade": "Completed 2nd Grade",
@@ -91,12 +92,7 @@
             "10th Grade": "Completed 10th Grade",
             "11th Grade": "Completed 11th Grade",
             "12th Grade": "Completed 12th Grade",
-            "High School Diploma": "Attained a High School Diploma (or GED?)",
             "Some College": "Attended some college, but did not complete a degree.",
-            "Associate's Degree": "Completed an Associate's Degree",
-            "Bachelor's Degree": "Completed a Bachelor's Degree",
-            "Doctoral Degree": "Completed a Doctoral Degree",
-            "Professional Degree": "Completed a Professional Degree (e.g., XX)"
         }
     },
     "parent_1_education": {
