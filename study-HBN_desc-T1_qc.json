@@ -5,7 +5,7 @@
             "HBN": "HBN"
         }
     },
-    "ses_id": {
+    "session_id": {
         "LongName": "Session identifier",
         "Description": "The session identifier indicates the site at which the subject was scanned."
     },
