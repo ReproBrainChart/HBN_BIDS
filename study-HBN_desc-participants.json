@@ -20,7 +20,7 @@
             
         }
     },
-    "session": {
+    "session_id": {
         "LongName": "Session",
         "Description": "Participant's imaging session, refers to study site.",
         "Levels": {
