@@ -15,6 +15,7 @@
         "Levels": {
             "HBNsiteSI": "Site Staten Island from HBN study.",
             "HBNsiteCBIC": "Site Citigroup Biomedical Imaging Center from HBN study.",
+            "HBNsiteCUNY": "Site City University, New York from HBN study.",
             "HBNsiteRU": "Site Rutgers University from HBN study.",
             
         }
@@ -25,6 +26,7 @@
         "Levels": {
             "ses-HBNsiteSI": "Site Staten Island from HBN study.",
             "ses-HBNsiteCBIC": "Site Citigroup Biomedical Imaging Center from HBN study.",
+            "ses-HBNsiteCUNY": "Site City University, New York from HBN study.",
             "ses-HBNsiteRU": "Site Rutgers University from HBN study.",
     },
     "wave": {
